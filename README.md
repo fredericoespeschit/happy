@@ -46,7 +46,7 @@ Acesse project [Netlify](https://happy-fredericoespeschit.netlify.app/)
 ## 📸 Screenshots
 Click to expand.<br>
 <img src="https://github.com/fredericoespeschit/happy/blob/main/public/happy-print1.png" width="49%"/>
-
+<img src="https://github.com/fredericoespeschit/happy/blob/main/public/happy-print2.png" width="49%"/>
 
 ## :rocket: Technologies
 

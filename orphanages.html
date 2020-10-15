@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <!-- Atributo que faz o navegador entender que estamos usando a ultima versão do html -->
 <html lang="pt_BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Location Orphanages | Happy</title>
-    <link
-      rel="shortcut icon"
-      href="./public/images/logo-icon.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./public/css/main.css" />
-    <link rel="stylesheet" href="./public/css/animations.css" />
-    <link rel="stylesheet" href="./public/css/page-orphanages.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div id="page-orphanages">
-      <aside class="animation-rigth">
-        <header>
-          <img src="./public/images/map-marker.svg" alt="Map Marker" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Location Orphanages | Happy</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        <link rel="shortcut icon" href="./public/images/logo-icon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="./public/css/main.css" />
+        <link rel="stylesheet" href="./public/css/animations.css" />
+        <link rel="stylesheet" href="./public/css/page-orphanages.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="page-orphanages">
+            <aside class="animation-rigth">
+                <header>
+                    <img src="./public/images/map-marker.svg" alt="Map Marker" />
+                    <h2>Escolha um orfanato no mapa</h2>
+                    <p>Muitas crianças estão esperando sua visita :)</p>
+                </header>
+                <footer>
+                    <strong>Belo Horizonte</strong>
+                    <p>Minas Gerais</p>
+                </footer>
+            </aside>
+            <div id="mapid" class="animation-appear"></div>
+            <a href="create-orphanage.html" class="create-orphanage" title="Cadastro">
+                <img src="./public/images/plus.svg" alt="Create orphanage" />
+            </a>
+        </div>
 
-          <h2>Escolha um orfanato no mapa</h2>
-          <p>Muitas crianças estão esperando sua visita :)</p>
-        </header>
 
-        <footer>
-          <strong>Belo Horizonte</strong>
-          <p>Minas Gerais</p>
-        </footer>
-      </aside>
-
-      <div id="mapid"></div>
-
-      <a href="create-orphanage.html" class="create-orphanage" title="Cadastro">
-        <img src="./public/images/plus.svg" alt="Create orphanage">
-      </a>
-    </div>
-  </body>
+        <script src="./public/scripts/page-orphanages.js"> </script>
+    </body>
 </html>

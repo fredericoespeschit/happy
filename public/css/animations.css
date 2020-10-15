@@ -1,53 +1,49 @@
-
 /* Animações */
 @keyframes up {
-    from {
-        opacity: 0;
-        transform: translateY(16px);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes rigth {
-    from {
-        transform: translateX(-100%)
-    }
+  from {
+    transform: translateX(-100%);
+  }
 
-    to {
-        transform: translateX(0)
-    }
+  to {
+    transform: translateX(0);
+  }
 }
 
-
 @keyframes appear {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .animation-up {
-    animation-name: up;
-    animation-duration: 300ms;
-    animation-fill-mode: backwards;
+  animation-name: up;
+  animation-duration: 300ms;
+  animation-fill-mode: backwards;
 }
 
-
 .animation-rigth {
-    animation-name: rigth;
-    animation-duration: 300ms;
+  animation-name: rigth;
+  animation-duration: 300ms;
 }
 
 .animation-appear {
-    animation-name: appear;
-    animation-duration: 300ms;
-    animation-fill-mode: backwards;
+  animation-name: appear;
+  animation-duration: 300ms;
+  animation-fill-mode: backwards;
 }

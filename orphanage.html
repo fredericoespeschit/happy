@@ -32,12 +32,17 @@
   </head>
   <body>
     <div id="page-orphanage">
-      <aside class="animation-rigth">
-
+      <aside class="animation-rigth sidebar">
+        <img src="./public/images/map-marker.svg" alt="Happy"> 
+        <footer>
+          <button onclick="history.back()"> 
+            <img src="./public/images/arrow-back.svg" alt="Voltar">
+          </button>
+        </footer>
       </aside>
-    </div>
+  
 
-    <main>
+    <main class="animate-appear with-sidebar">
       <div class="orphanage-details">
         <img src="./public/images/home.jpg" alt="Imagem Orfanato 'Lar das Meninas'">
 
@@ -72,7 +77,7 @@
           <p>Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social.</p>
           
           <div class="map-container">
-            <div id="mapip">
+            <div id="mapid">
 
             </div>
             <footer>
@@ -94,6 +99,11 @@
               Atendemos fim de semana
             </div>
           </div>
+
+          <button type="button" class="primar-button">
+            <img src="./public/images/whatsapp.svg" alt="whatsapp">
+            Entrar em contato
+          </button>
         </div>
       </div>
     </main>

@@ -31,7 +31,7 @@ NLW is a practical week with lots of code, challenges, networking and a single o
 
 ### Days
 - 1º Dia: Acelerando sua evolução 12/10 - :heavy_check_mark:
-- 2º Dia: Olhando as oportunidades 13/10 - :construction:
+- 2º Dia: Olhando as oportunidades 13/10 - :heavy_check_mark:
 - 3º Dia: A escolha da Stack 14/10 - :construction:
 - 4º Dia: Até 2 anos em 2 meses 15/10 - :construction:
 - 5º Dia: Milha extra 16/10 - :construction:

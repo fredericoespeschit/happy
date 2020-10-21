@@ -10,12 +10,12 @@
   
 	
   <a href="https://www.linkedin.com/in/fredericoespeschit/">
-    <img alt="Made by fredericoespeschit" src="https://img.shields.io/badge/made%20by-fredericoespeschit-%2304D361">
+    <img alt="Made by fredericoespeschit" src="https://img.shields.io/badge/made%20by-cauezitto-%2304D361">
   </a>
  
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
    <a href="https://github.com/fredericoespeschit/happy/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/fredericoespeschit/happy?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/cauezitto/happy?style=social">
   </a>
 
 </p>
@@ -44,14 +44,6 @@ NLW is a practical week with lots of code, challenges, networking and a single o
 
 Happy is a project developed based on Children's Day. 
 That aims to connect people to orphanages that allow to make a children's day more special.
-
-Acesse project [Netlify](https://happy-fredericoespeschit.netlify.app/)
-
-## 📸 Screenshots
-Click to expand.<br>
-<img src="https://github.com/fredericoespeschit/happy/blob/main/public/happy-print1.png" width="49%"/>
-<img src="https://github.com/fredericoespeschit/happy/blob/main/public/happy-print2.png" width="49%"/>
-<img src="https://github.com/fredericoespeschit/happy/blob/main/public/happy-print3.png" width="49%"/>
 
 ## :rocket: Technologies
 
